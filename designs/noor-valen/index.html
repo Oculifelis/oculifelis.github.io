@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Noor Valen · Product &amp; Interface Designer</title>
+<meta name="description" content="Portfolio of Noor Valen, an independent product and interface designer in Lisbon. Fintech, health and tools, from first sketch to shipped system.">
+<meta name="theme-color" content="#EAE6DF">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23FF4B1F'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>.loader{display:none}</style></noscript>
+</head>
+<body class="is-loading">
+
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+
+<div class="loader" aria-hidden="true">
+  <div class="loader__top"><span>Noor Valen</span><span>Portfolio 2026</span></div>
+  <div class="loader__count"><span data-count>000</span></div>
+  <div class="loader__bar"><i></i></div>
+</div>
+
+<div class="cursor" aria-hidden="true"><i class="cursor__dot"></i><span class="cursor__label"></span></div>
+
+<header class="nav">
+  <a class="nav__logo" href="#top">Noor Valen<sup>©</sup></a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="nav__status" href="#contact"><i></i>Booking Q1 2027</a>
+  <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu"><span>Menu</span><span>Close</span></button>
+</header>
+
+<div class="menu" id="menu" inert>
+  <nav class="menu__links" aria-label="Mobile">
+    <a href="#work"><small>01</small>Work</a>
+    <a href="#about"><small>02</small>About</a>
+    <a href="#services"><small>03</small>Services</a>
+    <a href="#contact"><small>04</small>Contact</a>
+  </nav>
+  <div class="menu__foot">
+    <a href="mailto:hello@noorvalen.studio">hello@noorvalen.studio</a>
+    <span>Lisbon, PT</span>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" data-sec="hero">
+    <div class="hero__meta">
+      <p data-in>Product &amp; interface designer<br>Independent practice, est. 2019</p>
+      <p data-in class="hero__meta-r">Lisbon, PT<br><span data-clock>--:--</span> local</p>
+    </div>
+
+    <h1 class="hero__title" aria-label="Noor Valen">
+      <span class="line" aria-hidden="true"><span class="word" data-split>Noor</span></span>
+      <span class="line line--r" aria-hidden="true"><span class="word" data-split>Valen</span></span>
+    </h1>
+
+    <div class="hero__foot">
+      <p class="hero__lede" data-in>Interfaces that feel <em>calm</em> at speed. Nine years of product design for fintech, health and the tools people open every day.</p>
+      <a class="badge magnetic" data-in href="#work" aria-label="Scroll to selected work">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+          <text><textPath href="#circ" textLength="284">Selected work 2023/2026 · Scroll to explore ·</textPath></text>
+        </svg>
+        <span class="badge__arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 4v15M5 13l7 7 7-7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__inner">
+      <span>Product design</span><i></i><span><em>Design systems</em></span><i></i><span>Interaction</span><i></i><span><em>Prototyping</em></span><i></i><span>Research</span><i></i>
+      <span>Product design</span><i></i><span><em>Design systems</em></span><i></i><span>Interaction</span><i></i><span><em>Prototyping</em></span><i></i><span>Research</span><i></i>
+    </div>
+  </div>
+
+  <!-- WORK -->
+  <section class="work" id="work" data-sec="work" data-theme="dark">
+    <header class="sec-head">
+      <span class="sec-head__idx">(01)</span>
+      <h2 data-rise>Selected <em>work</em></h2>
+      <span class="sec-head__aside">04 of 28 projects<br>2023/2026</span>
+    </header>
+
+    <div class="work__track">
+
+      <article class="card" data-cursor="View">
+        <a class="card__link" href="#contact" data-case>
+          <div class="card__cover c-halcyon">
+            <div class="card__mock">
+              <div class="ph">
+                <div class="ph__bar"><span>9:41</span><i></i><span>5G</span></div>
+                <p class="ph__hi">Balance</p>
+                <p class="ph__bal">€12,480<small>.00</small></p>
+                <svg class="ph__spark" viewBox="0 0 200 60" preserveAspectRatio="none">
+                  <defs><linearGradient id="sg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9F26B" stop-opacity=".35"/><stop offset="1" stop-color="#C9F26B" stop-opacity="0"/></linearGradient></defs>
+                  <path d="M0 44 C20 40 28 50 46 38 S78 20 96 30 128 46 146 22 180 14 200 8 V60 H0Z" fill="url(#sg)"/>
+                  <path class="draw" pathLength="100" d="M0 44 C20 40 28 50 46 38 S78 20 96 30 128 46 146 22 180 14 200 8" fill="none" stroke="#C9F26B" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+                <div class="ph__pills"><span>Send</span><span>Request</span><span>Invoice</span></div>
+                <ul class="ph__tx">
+                  <li><i style="--c:#FF4B1F"></i><b>Studio Brandt</b><em>+ €3,200</em></li>
+                  <li><i style="--c:#C9F26B"></i><b>Tax reserve</b><em>- €768</em></li>
+                  <li><i style="--c:#8C86FF"></i><b>Type licence</b><em>- €49</em></li>
+                  <li><i style="--c:#F3F1EC"></i><b>Atelier Nove</b><em>+ €1,850</em></li>
+                </ul>
+              </div>
+              <div class="chip chip--tax">
+                <svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="16" fill="none" stroke="#DDD8CE" stroke-width="5"/><circle class="draw" cx="20" cy="20" r="16" fill="none" stroke="#2B25D6" stroke-width="5" pathLength="100" style="--d:24" stroke-linecap="round" transform="rotate(-90 20 20)"/></svg>
+                <div><b>24%</b><span>set aside for tax</span></div>
+              </div>
+              <div class="chip chip--paid"><i></i><span>Invoice 0142 paid</span></div>
+            </div>
+          </div>
+          <div class="card__info">
+            <span class="card__n">01</span>
+            <div><h3>Halcyon</h3><p>Banking built for freelancers</p></div>
+            <span class="card__tags">Fintech · iOS<br>2026</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="card" data-cursor="View">
+        <a class="card__link" href="#contact" data-case>
+          <div class="card__cover c-field">
+            <div class="card__mock">
+              <div class="win">
+                <div class="win__bar"><i></i><i></i><i></i><span>fieldnote.app / onboarding-study</span></div>
+                <div class="win__body">
+                  <aside class="win__side">
+                    <b>Studies</b><span class="on">Onboarding</span><span>Pricing page</span><span>Churn calls</span><span>Diary study</span>
+                    <b>Tags</b><span>Trust</span><span>Speed</span><span>Clarity</span>
+                  </aside>
+                  <div class="win__main">
+                    <p class="win__h">Onboarding interviews</p>
+                    <div class="win__chips"><span>12 sessions</span><span>48 highlights</span><span class="hot">3 patterns</span></div>
+                    <div class="notes">
+                      <div class="note n1"><b>“I never know if it saved.”</b><span>P04 · Trust</span></div>
+                      <div class="note n2"><b>“Setup took one coffee.”</b><span>P02 · Speed</span></div>
+                      <div class="note n3"><b>“Where did my draft go?”</b><span>P09 · Trust</span></div>
+                      <div class="note n4"><b>“The empty state taught me.”</b><span>P07 · Clarity</span></div>
+                      <div class="note n5"><b>“Felt like it knew my team.”</b><span>P11 · Speed</span></div>
+                      <div class="note n6"><b>“Too many ways to share.”</b><span>P01 · Clarity</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ptr"><svg viewBox="0 0 16 16"><path d="M1 1l5.2 14 2.2-6 6-2.2z"/></svg><span>Ana</span></div>
+            </div>
+          </div>
+          <div class="card__info">
+            <span class="card__n">02</span>
+            <div><h3>Fieldnote</h3><p>A research library teams keep using</p></div>
+            <span class="card__tags">SaaS · Web<br>2025</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="card" data-cursor="View">
+        <a class="card__link" href="#contact" data-case>
+          <div class="card__cover c-tidal">
+            <div class="card__mock">
+              <svg class="dial" viewBox="0 0 200 200">
+                <g fill="none" stroke-width="9" stroke-linecap="round" transform="rotate(-90 100 100)">
+                  <circle cx="100" cy="100" r="88" stroke="rgba(255,255,255,.08)"/>
+                  <circle class="draw" cx="100" cy="100" r="88" stroke="#C9F26B" pathLength="100" style="--d:87"/>
+                  <circle cx="100" cy="100" r="73" stroke="rgba(255,255,255,.08)"/>
+                  <circle class="draw" cx="100" cy="100" r="73" stroke="#FFB199" pathLength="100" style="--d:64"/>
+                  <circle cx="100" cy="100" r="58" stroke="rgba(255,255,255,.08)"/>
+                  <circle class="draw" cx="100" cy="100" r="58" stroke="#8FD3FF" pathLength="100" style="--d:72"/>
+                </g>
+              </svg>
+              <div class="dial__num"><b>87</b><span>Recovery</span></div>
+              <div class="tile tile--sleep"><span>Sleep</span><b>7h 42m</b>
+                <div class="bars"><i style="--h:42%"></i><i style="--h:68%"></i><i style="--h:55%"></i><i style="--h:88%"></i><i style="--h:74%"></i><i style="--h:60%"></i><i style="--h:94%"></i></div>
+              </div>
+              <div class="tile tile--hrv"><span>HRV</span><b>64 ms</b>
+                <svg viewBox="0 0 100 30" preserveAspectRatio="none"><path class="draw" pathLength="100" d="M0 18 C8 18 10 6 16 6 S24 26 32 22 40 10 48 12 58 24 66 16 76 4 84 10 94 20 100 14" fill="none" stroke="#C9F26B" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="card__info">
+            <span class="card__n">03</span>
+            <div><h3>Tidal</h3><p>Sleep and recovery, read at a glance</p></div>
+            <span class="card__tags">Health · Wearable<br>2024</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="card" data-cursor="View">
+        <a class="card__link" href="#contact" data-case>
+          <div class="card__cover c-kiln">
+            <div class="card__mock">
+              <div class="bento">
+                <div class="b b-type"><b>Aa</b><span>Display / 64 / Tight</span></div>
+                <div class="b b-btn"><span class="btn1">Add to bag</span><span class="btn2">Save</span></div>
+                <div class="b b-sw"><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="b b-dark"><span>Kiln DS</span><b>2.0</b><em>212 tokens · 64 components</em></div>
+                <div class="b b-ctl"><span class="tog"></span><span class="tog tog--off"></span><span class="sld"><i></i></span></div>
+                <div class="b b-in"><span>Search glazes</span><kbd>/</kbd></div>
+                <div class="b b-rad"><i></i><i></i><i></i></div>
+                <div class="b b-av"><i></i><i></i><i></i><span>+8</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="card__info">
+            <span class="card__n">04</span>
+            <div><h3>Kiln</h3><p>One design system for a ceramics marketplace</p></div>
+            <span class="card__tags">Commerce · System<br>2023</span>
+          </div>
+        </a>
+      </article>
+
+      <a class="card card--end" href="#contact" data-cursor="Ask">
+        <span class="card--end__n">24</span>
+        <span class="card--end__t">more projects in the archive, shown on request</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19L19 5M8 5h11v11" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+      </a>
+    </div>
+
+    <div class="work__progress" aria-hidden="true"><span>Scroll</span><div><i></i></div><span>04</span></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about" data-sec="about">
+    <header class="sec-head">
+      <span class="sec-head__idx">(02)</span>
+      <h2 data-rise>About the <em>practice</em></h2>
+    </header>
+
+    <p class="about__statement" data-words>Noor Valen designs digital products for teams that care how things <em>feel</em>. The work runs from the first sketch to the shipped system, with prototypes in between that settle arguments early.</p>
+
+    <div class="about__grid">
+      <div class="about__copy" data-reveal>
+        <p>Before going independent in 2019, Noor led design at two product companies and spent a year building interfaces in code. That mix shows up in the handoff. Files are tidy, states are covered and motion arrives with timing values.</p>
+        <p>Most engagements last three to nine months and sit inside the client team. One designer, one point of contact, no layers.</p>
+      </div>
+      <dl class="about__facts" data-reveal>
+        <div><dt>Now</dt><dd>Design partner at Halcyon</dd></div>
+        <div><dt>Before</dt><dd>Head of Design, Fieldnote<br>Senior Designer, Orto Labs</dd></div>
+        <div><dt>Teaches</dt><dd>Interface motion at ELISAVA</dd></div>
+        <div><dt>Speaks</dt><dd>English, Portuguese, Dutch</dd></div>
+      </dl>
+    </div>
+
+    <ul class="stats">
+      <li data-reveal><b><span data-num="9">9</span></b><span>Years in practice</span></li>
+      <li data-reveal><b><span data-num="42">42</span></b><span>Products shipped</span></li>
+      <li data-reveal><b><span data-num="11">11</span></b><span>Design systems built</span></li>
+      <li data-reveal><b><span data-num="3.2">3.2</span>M</b><span>People using them daily</span></li>
+    </ul>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services" data-sec="services">
+    <header class="sec-head">
+      <span class="sec-head__idx">(03)</span>
+      <h2 data-rise>Services</h2>
+      <span class="sec-head__aside">Four ways to<br>work together</span>
+    </header>
+
+    <ul class="svc">
+      <li class="svc__row is-open">
+        <button type="button" aria-expanded="true">
+          <span class="svc__n">01</span>
+          <span class="svc__t">Product design</span>
+          <span class="svc__tags">Web · iOS · Android</span>
+          <span class="svc__plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc__body"><div><div class="svc__inner">
+          <p>End-to-end design for new products and hard redesigns. Flows, interface, states and the edge cases that usually get skipped.</p>
+          <ul><li>Flows and wireframes</li><li>High-fidelity interface</li><li>Developer handoff</li></ul>
+        </div></div></div>
+      </li>
+      <li class="svc__row">
+        <button type="button" aria-expanded="false">
+          <span class="svc__n">02</span>
+          <span class="svc__t">Design systems</span>
+          <span class="svc__tags">Tokens · Components · Docs</span>
+          <span class="svc__plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc__body"><div><div class="svc__inner">
+          <p>Systems that teams adopt because they are faster than going around them. Built in Figma and mirrored in code.</p>
+          <ul><li>Token architecture</li><li>Component libraries</li><li>Usage guidelines</li></ul>
+        </div></div></div>
+      </li>
+      <li class="svc__row">
+        <button type="button" aria-expanded="false">
+          <span class="svc__n">03</span>
+          <span class="svc__t">Interaction &amp; motion</span>
+          <span class="svc__tags">Prototypes · Micro-interactions</span>
+          <span class="svc__plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc__body"><div><div class="svc__inner">
+          <p>Motion with a job to do. Coded prototypes that feel like the real product, with easing and durations engineers can copy.</p>
+          <ul><li>Interactive prototypes</li><li>Motion specs</li><li>Gesture design</li></ul>
+        </div></div></div>
+      </li>
+      <li class="svc__row">
+        <button type="button" aria-expanded="false">
+          <span class="svc__n">04</span>
+          <span class="svc__t">Research &amp; strategy</span>
+          <span class="svc__tags">Interviews · Testing · Roadmaps</span>
+          <span class="svc__plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc__body"><div><div class="svc__inner">
+          <p>Short research cycles that end in decisions. Interviews, usability tests and a clear call on what to build next.</p>
+          <ul><li>User interviews</li><li>Usability testing</li><li>Product direction</li></ul>
+        </div></div></div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- PRAISE -->
+  <section class="praise" data-sec="praise">
+    <header class="sec-head">
+      <span class="sec-head__idx">(04)</span>
+      <h2 data-rise>Kind <em>words</em></h2>
+    </header>
+
+    <div class="praise__grid">
+      <figure class="quote" data-reveal>
+        <blockquote>Noor turned a tangle of features into a product people call <em>calm</em>. Activation rose 38 percent in one quarter and support tickets fell by half.</blockquote>
+        <figcaption><i aria-hidden="true">LB</i><span><b>Lena Brandt</b>Chief Product Officer, Halcyon</span></figcaption>
+      </figure>
+
+      <div class="awards" data-reveal>
+        <p class="awards__h">Recognition</p>
+        <ul>
+          <li><span>2026</span><b>Site of the Year</b><em>Atlas Web Awards</em></li>
+          <li><span>2025</span><b>Best Product Interface</b><em>Nordic Interface Prize</em></li>
+          <li><span>2025</span><b>Jury Selection</b><em>Lisbon Design Biennale</em></li>
+          <li><span>2024</span><b>Gold, Health &amp; Wellbeing</b><em>Pixel &amp; Type Annual</em></li>
+          <li><span>2023</span><b>Design System of the Year</b><em>Atlas Web Awards</em></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- CONTACT -->
+<footer class="contact" id="contact" data-sec="contact" data-theme="dark">
+  <div class="contact__top">
+    <span class="sec-head__idx">(05) Contact</span>
+    <span class="contact__avail"><i></i>Two project slots open for 2027</span>
+  </div>
+
+  <div class="contact__mid">
+    <h2 class="contact__title">
+      <span data-rise>Good products</span>
+      <span data-rise>start with a <em>hello</em>.</span>
+    </h2>
+    <a class="bigbtn magnetic" href="mailto:hello@noorvalen.studio" data-cursor-hide>
+      <span>Start a<br>project</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19L19 5M8 5h11v11" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+    </a>
+  </div>
+
+  <div class="contact__grid">
+    <div><p>New business</p><a class="ul" href="mailto:hello@noorvalen.studio">hello@noorvalen.studio</a></div>
+    <div><p>Elsewhere</p>
+      <a class="ul" href="#" data-void>Read.cv</a><a class="ul" href="#" data-void>Dribbble</a><a class="ul" href="#" data-void>LinkedIn</a><a class="ul" href="#" data-void>Instagram</a>
+    </div>
+    <div><p>Studio</p><span>Rua das Flores 41<br>1200-193 Lisbon</span></div>
+    <div><p>Local time</p><span><span data-clock>--:--</span> WET</span></div>
+  </div>
+
+  <div class="contact__base">
+    <span>© 2026 Noor Valen</span>
+    <span>38.72° N, 9.14° W</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
